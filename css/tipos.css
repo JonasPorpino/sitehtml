@@ -1,0 +1,27 @@
+/* seletor universal*/
+*{
+
+}
+/* seletor de atributo*/
+h1 {
+
+}
+/* seletor class */
+#nomeDaClasse {
+
+}
+
+/* seletor id "nesse tipo deve ser usuado unico" */
+.nomeDoId {
+
+}
+
+/* seletor seleciona elementos desabilitados */
+[disabled]{
+
+}
+
+/* seletor seleciona elementos setados para espanhol */
+[lang|=es]{
+    
+}
