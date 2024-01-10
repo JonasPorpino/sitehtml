@@ -23,5 +23,11 @@ h1 {
 
 /* seletor seleciona elementos setados para espanhol */
 [lang|=es]{
-    
+
 }
+
+/*Seletor para elementos do tipo button*/
+[type='button']{
+
+}
+
