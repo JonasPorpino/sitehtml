@@ -30,4 +30,23 @@ h1 {
 [type='button']{
 
 }
+/*seletor elemento tipo text*/
+[text='text'] {
 
+}
+
+/* seletor elemento tipo classe key, é o mesmo que .key*/
+[class*=key]{
+
+}
+/* expressões regulares
+    ~ exato
+    * contem
+    $ termina com
+    ^ começa com
+*/
+
+ /*seletor com título que contem a palavra 'exemple'*/
+ [title*="exemple"i]{
+
+ } 
