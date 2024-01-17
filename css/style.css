@@ -2,21 +2,30 @@ h1{
   color:green;
 }
 
+/* juntar várias classes como a mesma confguração */
+.par2, .par3, .par4 { 
+  text-align: justify; /* justificar texto */
+  font-weight: bolder; /* deixar o texto em negrito*/
+  padding: 2%;
+}
 
-.par1{
+#par1{
   border-width: 2px; /* Estiliza a largura */
   border-style: solid; /* Estiliza estilo */
   border-color:  rgb(60, 60, 82); /* Estiliza sua cor */
   border-radius: 20px; /*raio das bordas */
   padding: 2%; /* distância da margem interna */
-  text-align: justify; /* justificar texto */
+  text-align: justify;  /*justificar texto */
 }
 
-.par1:hover{ /* ao passar o mouse sobre o parágrafo */
+#par1:hover{ /* ao passar o mouse sobre o parágrafo */
   color:rgb(6, 136, 12);
   background-color: rgb(226, 255, 228);
 }
 
-#par2{
-  font-weight: bolder; /* deixar o texto em negrito*/
-}
+.par2{
+  text-indent: 100px; /* recuo de parágrafo */
+  letter-spacing: 3px; /*espaçamento entre letras */
+  line-height: 50px; /* espaçamento de linhas */
+  word-spacing: 5px; /*espaçamento entre palavras */ 
+} 
