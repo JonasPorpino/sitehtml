@@ -28,4 +28,15 @@ h1{
   letter-spacing: 3px; /*espaçamento entre letras */
   line-height: 50px; /* espaçamento de linhas */
   word-spacing: 5px; /*espaçamento entre palavras */ 
-} 
+}
+
+/*
+A propriedade content no CSS define o conteúdo de 
+um elemento. Você já deve ter ouvido falar que essa 
+propriedade se aplica somente aos pseudoelementos 
+::before e ::after. 
+*/
+#minhaLogo::before{ 
+
+  content: "" url("/img/logo.png");
+}
