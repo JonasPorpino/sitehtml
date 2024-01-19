@@ -40,3 +40,28 @@ propriedade se aplica somente aos pseudoelementos
 
   content: "" url("/img/logo.png");
 }
+#orga{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#depor1{
+  border-width: 2px; /* Estiliza a largura */
+  border-style: solid; /* Estiliza estilo */
+  border-color:  rgb(60, 60, 82); /* Estiliza sua cor */
+  border-radius: 20px; /*raio das bordas */
+  padding: 2%; /* distância da margem interna */
+  text-align: justify;  /*justificar texto */
+  height: 40%; /* altura */
+  width: 40%; /* largura */
+}
+#depor2{
+  border-width: 2px; /* Estiliza a largura */
+  border-style: solid; /* Estiliza estilo */
+  border-color:  rgb(60, 60, 82); /* Estiliza sua cor */
+  border-radius: 20px; /*raio das bordas */
+  padding: 2%; /* distância da margem interna */
+  text-align: justify;  /*justificar texto */
+  height: 40%;
+  width: 40%;
+}
